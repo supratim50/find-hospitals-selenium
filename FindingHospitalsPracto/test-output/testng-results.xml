@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-06T10:04:40 IST" name="FindingHospitals" finished-at="2022-01-06T10:06:40 IST" duration-ms="120951">
+    <groups>
+    </groups>
+    <test started-at="2022-01-06T10:04:40 IST" name="SeleniumTesting" finished-at="2022-01-06T10:06:40 IST" duration-ms="120951">
+      <class name="com.practo.Base">
+        <test-method is-config="true" signature="reportAnalysis()[pri:0, instance:com.practo.Base@2c35e847]" started-at="2022-01-06T10:04:39 IST" name="reportAnalysis" finished-at="2022-01-06T10:04:40 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportAnalysis -->
+        <test-method is-config="true" signature="readConfigProperties()[pri:0, instance:com.practo.Base@2c35e847]" started-at="2022-01-06T10:04:40 IST" name="readConfigProperties" finished-at="2022-01-06T10:04:46 IST" duration-ms="6004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfigProperties -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practo.Base@2c35e847]" started-at="2022-01-06T10:06:40 IST" name="closeBrowser" finished-at="2022-01-06T10:06:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.practo.Base@2c35e847]" started-at="2022-01-06T10:06:40 IST" name="endReport" finished-at="2022-01-06T10:06:41 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.practo.Base -->
+      <class name="testSuite.Regression">
+        <test-method signature="regressiontesting()[pri:0, instance:testSuite.Regression@485966cc]" started-at="2022-01-06T10:04:56 IST" name="regressiontesting" finished-at="2022-01-06T10:06:40 IST" duration-ms="104585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressiontesting -->
+      </class> <!-- testSuite.Regression -->
+      <class name="testSuite.SmokeTest">
+        <test-method signature="smoketesting()[pri:0, instance:testSuite.SmokeTest@5d0a1059]" started-at="2022-01-06T10:04:46 IST" name="smoketesting" finished-at="2022-01-06T10:04:56 IST" duration-ms="10296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoketesting -->
+      </class> <!-- testSuite.SmokeTest -->
+    </test> <!-- SeleniumTesting -->
+  </suite> <!-- FindingHospitals -->
+</testng-results>

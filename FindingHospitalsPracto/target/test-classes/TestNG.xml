@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FindingHospitals">
+<test name="SeleniumTesting">
+<classes>
+<class name="com.practo.Base" />
+<class name="testSuite.SmokeTest" />
+<class name="testSuite.Regression" />
+</classes>
+
+</test>
+</suite>
